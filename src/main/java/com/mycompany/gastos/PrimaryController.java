@@ -25,8 +25,7 @@ public class PrimaryController {
         int otros = Integer.parseInt(txtotros.getText());
 
         
-        int total = alimentacion + refrigerios + transporte
-                + telefonia + otros;
+        int total = alimentacion + refrigerios + transporte + telefonia + otros;
 
         lblsemanal.setText(String.valueOf(total));
 
